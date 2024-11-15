@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: auto;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+}
+
+.body {
+    padding: 20px;
+    background-color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.titulo {
+    font-weight: bold;
+}
+
+.container {
+   
+
+display: flex;
+flex-direction: column; 
+align-items: center;
+justify-content: center;
+}
+
+.botton {
+
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.botton:hover{
+   
+    background-color: #3825e0;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    transform: scale(1.1);
+
+
+}
+.contenedor2{
+    /* que me organice lo de este contenedor en columnas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+            
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    
+}
